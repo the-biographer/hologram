@@ -5,7 +5,7 @@ defmodule Hologram.Reflection do
 
   @compiler_lock_file_name "hologram_compiler.lock"
 
-  @ignored_modules [Kernel.SpecialForms]
+  @ignored_modules [Kernel.SpecialForms, Luerl, Luerl.Old]
 
   @ir_plt_dump_file_name "ir.plt"
 
